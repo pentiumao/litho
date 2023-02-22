@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "docusaurus start",
+    "start": "docusaurus --openssl-legacy-provider start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
