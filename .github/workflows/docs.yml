@@ -36,7 +36,6 @@ jobs:
 
       - name: Install and Build
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
           yarn
           yarn build
         working-directory: website/
