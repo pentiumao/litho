@@ -34,7 +34,7 @@ jobs:
           ./gradlew dokkaHtmlMultiModule
 
       - name: Install and Build
-      - run: |
+        run: |
           yarn
           yarn build
         working-directory: website/
